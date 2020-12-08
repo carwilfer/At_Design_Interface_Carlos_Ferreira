@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/formulario"
+    app:startDestination="@id/informacoesPessoaisFragment">
+
+    <fragment
+        android:id="@+id/informacoesPessoaisFragment"
+        android:name="com.carwilfer.at_design_interface_carlos_ferreira.InformacoesPessoaisFragment"
+        android:label="informacoes_pessoais_fragment"
+        tools:layout="@layout/informacoes_pessoais_fragment" />
+    <fragment
+        android:id="@+id/formacaoFragment"
+        android:name="com.carwilfer.at_design_interface_carlos_ferreira.FormacaoFragment"
+        android:label="formacao_fragment"
+        tools:layout="@layout/formacao_fragment" />
+    <fragment
+        android:id="@+id/experienciaProfissionalFragment"
+        android:name="com.carwilfer.at_design_interface_carlos_ferreira.ExperienciaProfissionalFragment"
+        android:label="experiencia_profissional_fragment"
+        tools:layout="@layout/experiencia_profissional_fragment" />
+    <fragment
+        android:id="@+id/cursosFragment"
+        android:name="com.carwilfer.at_design_interface_carlos_ferreira.CursosFragment"
+        android:label="cursos_fragment"
+        tools:layout="@layout/cursos_fragment" />
+    <fragment
+        android:id="@+id/publicacaoFragment"
+        android:name="com.carwilfer.at_design_interface_carlos_ferreira.PublicacaoFragment"
+        android:label="publicacao_fragment"
+        tools:layout="@layout/publicacao_fragment" />
+</navigation>
